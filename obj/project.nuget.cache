@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MtepuQ3LnDiBjJDzGbT6dmFvW1FyPclEncS+XV9CGP/xwUrJdn3HVHnzoeM6rasxin6qRdwxWcjd7D78TSyuXQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\samco\\Desktop\\Projet_Natif\\c#_cours\\c#_cours.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samco\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
