@@ -12,14 +12,15 @@ const https = require("https");
 
 const iconName = path.join(__dirname, "iconForDragAndDrop.png");
 const icon = fs.createWriteStream(iconName);
-
+let win;
 // Create a new file to copy - you can also copy existing files.
 function createWindow() {
-  const win = new BrowserWindow({
+  win = new BrowserWindow({
     width: 1200,
     height: 600,
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
+      nodeIntegration: true,
     },
   });
 
@@ -49,10 +50,6 @@ ipcMain.handle("dark-mode:toggle", () => {
     nativeTheme.themeSource = "dark";
   }
   return nativeTheme.shouldUseDarkColors;
-});
-
-ipcMain.handle("dark-mode:system", () => {
-  nativeTheme.themeSource = "system";
 });
 
 // HANDLE DRAG AND DROP

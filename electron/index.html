@@ -2,53 +2,76 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Hello World!</title>
+    <title>Posteed</title>
     <meta
       http-equiv="Content-Security-Policy"
       content="script-src 'self' 'unsafe-inline';"
     />
     <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./toggle.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <p>Current theme source: <strong id="theme-source">System</strong></p>
+    <input type="checkbox" id="toggle_checkbox" />
 
-    <button id="toggle-dark-mode">Toggle Dark Mode</button>
-    <button id="reset-to-system">Reset to System Theme</button>
+    <label for="toggle_checkbox" id="toggle-dark-mode">
+      <div id="star">
+        <div class="star" id="star-1">★</div>
+        <div class="star" id="star-2">★</div>
+      </div>
+      <div id="moon"></div>
+    </label>
 
-    <p>
-      Drag the boxes below to somewhere in your OS (Finder/Explorer, Desktop,
-      etc.) to copy an example markdown file.
-    </p>
-    <div
-      style="
-        border: 2px solid black;
-        border-radius: 3px;
-        padding: 5px;
-        display: inline-block;
-      "
-      draggable="true"
-      id="drag1"
-    >
-      Drag me - File 1
-    </div>
-    <div
-      style="
-        border: 2px solid black;
-        border-radius: 3px;
-        padding: 5px;
-        display: inline-block;
-      "
-      draggable="true"
-      id="drag2"
-    >
-      Drag me - File 2
-    </div>
-    <input id="pathToPdf" type="text" />
-    <button id="open-pdf">Ouvrir un pdf</button>
-    <br />
-    <h3>File Upload in Electron</h3>
-    <button id="upload">Upload File</button>
+    <form action method="post">
+      <h1><strong>Posteed</strong> Postuler facilement a des offres indeed</h1>
+
+      <!-- <div class="form-group">
+        <label for="title"
+          >Title <span>Postuler facilement a des offres indeed</span></label
+        >
+        <input type="text" name="title" id="title" class="form-controll" />
+      </div>
+      <div class="form-group">
+        <label for="caption"
+          >Caption <span>This caption should be descriptiv</span></label
+        >
+        <input type="text" name="caption" id="caption" class="form-controll" />
+      </div> -->
+
+      <div class="form-group file-area">
+        <label for="images"
+          >Files pdf <span>Your pdf should be a valid CV</span></label
+        >
+        <input
+          type="file"
+          id="fileUpload"
+          name="images"
+          required="required"
+          multiple="multiple"
+        />
+        <div class="file-dummy">
+          <div class="success">Great, your files are selected. Keep on.</div>
+          <div class="default">Please select some files</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="progress-container">
+          <div class="progress-bar" id="progressBar">0%</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <button id="upload">Upload pdf</button>
+      </div>
+      <div class="form-group">
+        <div draggable="true" id="drag1">
+          Telecharger les infos du cv (drag and drop)
+        </div>
+      </div>
+    </form>
     <script src="renderer.js"></script>
   </body>
 </html>
