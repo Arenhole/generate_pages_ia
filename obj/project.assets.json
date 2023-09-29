@@ -5520,24 +5520,26 @@
     ]
   },
   "packageFolders": {
-    "/home/matthieu/.nuget/packages/": {}
+    "C:\\Users\\samco\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/matthieu/devPerso/csharp/generate_pages_ia/c#_cours.csproj",
+      "projectUniqueName": "c:\\Users\\samco\\Desktop\\generate_pages_ia\\c#_cours.csproj",
       "projectName": "c#_cours",
-      "projectPath": "/home/matthieu/devPerso/csharp/generate_pages_ia/c#_cours.csproj",
-      "packagesPath": "/home/matthieu/.nuget/packages/",
-      "outputPath": "/home/matthieu/devPerso/csharp/generate_pages_ia/obj/",
+      "projectPath": "c:\\Users\\samco\\Desktop\\generate_pages_ia\\c#_cours.csproj",
+      "packagesPath": "C:\\Users\\samco\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\samco\\Desktop\\generate_pages_ia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/matthieu/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\samco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5597,8 +5599,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache c:\\Users\\samco\\Desktop\\generate_pages_ia\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/matthieu/devPerso/csharp/generate_pages_ia/c#_cours.csproj": {}
+    "c:\\Users\\samco\\Desktop\\generate_pages_ia\\c#_cours.csproj": {}
   },
   "projects": {
-    "/home/matthieu/devPerso/csharp/generate_pages_ia/c#_cours.csproj": {
+    "c:\\Users\\samco\\Desktop\\generate_pages_ia\\c#_cours.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matthieu/devPerso/csharp/generate_pages_ia/c#_cours.csproj",
+        "projectUniqueName": "c:\\Users\\samco\\Desktop\\generate_pages_ia\\c#_cours.csproj",
         "projectName": "c#_cours",
-        "projectPath": "/home/matthieu/devPerso/csharp/generate_pages_ia/c#_cours.csproj",
-        "packagesPath": "/home/matthieu/.nuget/packages/",
-        "outputPath": "/home/matthieu/devPerso/csharp/generate_pages_ia/obj/",
+        "projectPath": "c:\\Users\\samco\\Desktop\\generate_pages_ia\\c#_cours.csproj",
+        "packagesPath": "C:\\Users\\samco\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\samco\\Desktop\\generate_pages_ia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/matthieu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\samco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
