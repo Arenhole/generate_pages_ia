@@ -1,0 +1,33 @@
+{
+  "FirstName": "",
+  "LastName": "",
+  "Address": "",
+  "City": "",
+  "Age": "",
+  "Phone": "",
+  "Email": "",
+  "Formations": [
+    {
+      "years": "",
+      "diplome": "",
+      "establishments": ""
+    },
+    {
+      "years": "",
+      "diplome": "",
+      "establishments": ""
+    }
+  ],
+  "Competences": [
+    {
+      "name": "",
+      "description": ""
+    },
+    {
+      "name": "",
+      "description": ""
+    }
+  ],
+  "hobbies": ["", "", ""],
+  "probable_profession": ""
+}
